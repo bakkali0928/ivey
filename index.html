@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/acer/Desktop/Project/Ivey.html# -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Ivey" content="ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل. عبر مجموعة من الإخـتبـارات الشخصية و كذا الذكاء">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bakkali">
+    <meta name="google-site-verification" content="wCMTGRrhWkR_2ELsSzXlOvhePZRgNKByG7zBTKUYOt0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80f9fd535a.js" crossorigin="anonymous"></script> 
+    <title>Ivey</title>
+    <link rel="icon" type="image/png" href="sticker-black.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"></link>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'lemonada';
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom right, #ffffff, #d8f8ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 30px;
+  }
+  .navbar{
+    position: fixed;
+    right: 0;
+    height: 55px;
+    z-index: 5;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #001fac ;
+    justify-content: baseline;
+    display: inline-flex;
+    border-bottom: 6px #001fac solid;
+  
+  }
+  .navbar .menu-list{
+    position: fixed;
+    top: 0;
+    right: -200%;
+    height: 100vh;
+    width: 100vh;
+    max-width: 400px;
+    background-color: #001fac;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu-list.active{
+    right: 0%;
+  }
+  .navbar .menu-list li{
+    margin-top: 45px;
+    list-style: none;
+  }
+  .navbar .logo a{
+    position: absolute;
+    background-color: #001fac;
+    top: 3px;
+    right: 5px;
+    color: #ffffff;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 800;
+    font-size: 38px;
+    direction: ltr;
+    text-decoration: none;
+    padding-right: 20px;
+    
+  }
+  .menu-list li a{
+    color: #ffffff;
+    font-family: 'Amiri', serif;
+    font-size: 23px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .menu-list li a:hover{
+    color: #e6dd60;
+  }
+  .icon{
+    color:#ffffff ;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  
+  }
+  .icon.hide{
+    display: none;
+  
+  }
+  .icon.cancel-btn{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  
+  }
+  .icon.menu-btn{
+    position: fixed;
+    left: 15px;
+    top: 15px;
+  }
+.content{
+    margin-right: 13%;
+    margin-top: 70px;
+    display: inline-block;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 90;
+    color: #001fac;
+}
+.content p{
+    font-size: 14.25px;
+    color: #2B241D;
+    width: 55%;
+
+}
+
+
+.content .btn{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background: linear-gradient(45deg,#002fff, #001fac );
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.content .btn:hover{
+    font-size: 15px;
+    background: linear-gradient(45deg,#000000, #000000 );
+    color: #d8f8ff;
+
+
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: inline-flex;
+}
+.arrow-icons img{
+    width: 50px;
+    margin-right: 30%;
+    margin-bottom: 15px;
+    background-color: #ac382b00;
+    border: #ac382b00 2px solid;
+    border-radius: 50%;
+
+}
+.inicial-image{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    margin-right: 700px;
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -80px;
+    bottom: 180px;
+}
+.social-links{
+    text-decoration: none;
+    color: linen;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.inicial-image {
+    width: 300px;
+    max-width: 800px;
+}
+@media screen and (max-width: 944px){
+    .content p{
+        width: 98%;
+    }
+    .inicial-image {
+        width: 100px;
+        max-width: 600px;
+    }
+    .content p{
+        display: block;
+    }
+    .content h1{
+        display: block;
+    }
+    .inicial-image{
+        display: none;
+
+    }
+}
+    </style>
+
+</head> 
+<body>
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo"><a href="">Ivey</a></div>
+            </div>
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                       <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/">الرئــيسـية</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/read.html">اقـــــــرأ</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/Tests.html">الإخـتبـارات</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/not.html">أفكــار</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/About1.html">حــولـــنـا</a></li>                </ul>
+                <div class="icon menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+        <a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/Tests.html" class="btn">إختبر ذكاءك و شخصيتك</a>
+        <h1>إذا كنت على دراية تامة بنفسك<br> حتما ستنميها:)</h1>
+        <p>ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل.
+            اختبار الذكاءات المتعددة: يستخدم هذا الاختبار لاكتشاف كيف تتعلم وكيف تعالج المعلومات.
+            16 اختبار الشخصية: سيساعدك هذا الاختبار في معرفة نوع شخصيتك.
+            اختبار السمات الخمس الكبرى: اختبار السمات الخمس الكبرى هو اختبار للشخصية يُستخدم لقياس الأبعاد الخمسة الرئيسية للشخصية البشرية ويقدم تقريرًا عن درجاتك في هذه السمات الخمس</p>
+        <div class="arrow-icons">
+        <img src="right-arrow.png" alt="none">
+        <img src="left-arrow.png" alt="none">
+        </div>
+        </div>
+        <img src="artificial-intelligence.png" class="inicial-image">
+        
+        
+        <div class="social-links">
+            <a href="http://www.instagram.com/ivey_iy/" target="_blank" rel="noopener noreferrer">instagram</a>
+            <a href="http://www.facebook.com/profile.php?id=100085368254058" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="http://https://iveyfortestyourpersonality.on.drv.tw/Iveyy/" target="_blank" rel="noopener noreferrer">Website</a>
+        </div>
+    </div>
+    <script>
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+        }
+        
+    </script>
+</body>
+

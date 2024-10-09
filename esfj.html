@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Ivey" content="ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل. عبر مجموعة من الإخـتبـارات الشخصية و كذا الذكاء">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bakkali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80f9fd535a.js" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"></link> 
+    <title>ISTJ</title>
+    <link rel="stylesheet" href="istj.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo"><a href="">Ivey«</a></div>
+    
+            </div>
+            
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                       <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/">الرئــيسـية</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/read.html">اقـــــــرأ</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/Tests.html">الإخـتبـارات</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/not.html">أفكــار</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/About1.html">حــولـــنـا</a></li>                </ul>
+                <div class="icon menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
+    
+            </div>
+        </nav>
+    <div class="ctr">
+        <h1 class="title">ESFJ : شخصية القنصل</h1>
+        <img src="esfj.jpg" alt="esfj">
+        <h4 class="description">شخصية اجتماعية ، حسية ، عاطفية، حازمة</h4>
+        <h6 class="more">
+            عادة ما يتم وصفهم بأنهم مجتمعيون، لديهم طريقة لتشجيع الآخرين ليكونوا في أفضل حالاتهم وغالبًا ما يجدون صعوبة في تصديق أي شيء سيئ عن الأشخاص المقربين منهم، يميل الأشخاص الذين يتمتعون بنوع شخصية القنصل إلى أن يكونوا منفتحين ومخلصين ومنظمين وحنونين
+            أشخاص يهتمون بالآخرين بشكل غير عادي ، اجتماعيون و شعبيون ، و حريصون على مساعدة الغير دائما
+                        
+        </h6>
+        <h1>نقاط القوة</h1>
+        <ul class="list">
+            <li>عملي ويتحمل المسؤولية</li>
+            <li>متفائل ومحبوب من الجميع</li>
+            <li>تقليدي ويحب الإبقاء على قوة العلاقات الأسرية</li>
+            <li>لديها خطط عمل جيدة ومدعومة</li>
+            <li>طيب القلب ومتعاطف</li>
+            <li>يعيش في الحاضر، يكره التنظير والتكهن بالمستقبل</li>
+            <li>متعاون جداً، عضو فريق فعال</li>
+
+        </ul>
+        <h1>كيف يراك الناس</h1>
+        <ul class="list">
+            <li>رؤوُف </li>
+            <li>ودّي </li>
+            <li>مُفيد </li>
+        </ul>
+        <h1>نقاط الضعف</h1>
+        <ul class="list">
+            <li>قد يصبح مهووساً بمعرفة نظرة الناس له</li>
+            <li>لا يولي إهتماماً بإحتياجاته الخاصة، وغالباً ما يضحي بنفسه</li>
+            <li>قد يستخدم اسلوب إشعار الآخرين بالذنب للتلاعب بهم وأخذ منهم مايريده</li>
+        </ul>
+        <h1>ESFJ كأب و أم</h1>
+        <h6 class="more">
+            متحمسين لكل جوانب الأمومة و الأبوة لرعاية أطفالهم لكن هناك جانب سلبي ، هو عدم معاقبة أطفالهم مباشرة ، و ربما من الصعب عليهم رؤية أخطائهم ، يحمون أطفالهم بشكل كبير ، و يقفون ضد أي شخص يحاول إيذائهم
+        </h6>
+        <h1>ESFJ كطالب</h1>
+        <h6 class="more">
+            رئيس الفصل لديه دائرة واسعة من الاصدقاء والشخصية الساحرة التي يحبها الجميع
+        </h6>
+        <h1>نسبـة esfj في العالم : <span class="precente">12%</span></h1>
+
+
+    </div>
+    <script>
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+        }
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Ivey" content="ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل. عبر مجموعة من الإخـتبـارات الشخصية و كذا الذكاء">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bakkali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80f9fd535a.js" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"></link> 
+    <title>ISTP</title>
+    <link rel="stylesheet" href="istp.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo"><a href="">Ivey«</a></div>
+    
+            </div>
+            
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                       <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/">الرئــيسـية</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/read.html">اقـــــــرأ</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/Tests.html">الإخـتبـارات</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/not.html">أفكــار</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/About1.html">حــولـــنـا</a></li>
+                    </ul>
+                <div class="icon menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
+    
+            </div>
+        </nav>
+    <div class="ctr">
+        <h1 class="title">ISTP : شخصية الحرفي</h1>
+        <img src="istp.jpg" alt="istp">
+        <h4 class="description">شخصية انطوائية ، حسية ، عقلانية ، مرنة</h4>
+        <h6 class="more">
+            هي الشخصية الملتزمة بفهم الميكانيكا، استكشاف الأخطاء وإصلاحها، وتتعامل هذه الشخصية بمنطق ومرونة، ودائمًا ما تبحث عن الحلول العملية للمشاكل المطروحة ، شخصية مستقلة وقادرة على التكيف، ويمكنها التفاعل مع العام بتلقائيتها الداخلية ، شخصية مهتمة بالتفاصيل، وتُلبي متطلبات العالم من حولها، وهذا ناتج عن احساسها الذكي بمحيطها، ويمكنها الاستجابة بسرعة والتحرك في حالات الطوارئ، ويُعتمد عليها في اتخاذ القرارات..
+            مجربون ، جريئون و عمليون ، يتقنوا جميع أنواع الأدوات
+            كل ما يطمح له هو الحرية
+                        
+        </h6>
+        <h1>نقاط القوة</h1>
+        <ul class="list">
+            <li>عملي وواقعي</li>
+            <li>لا يشعر بالتهديد من الخلافات والنقد</li>
+            <li>يحترم مساحة ووقت الآخرين الخاص</li>
+            <li>عادة ما يكون شديد الثقة بنفسه</li>
+            <li>يتعلم بشكل أفضل بالممارسة والتطبيق</li>
+            <li>منفذ، يفضل البدء بالعمل قبل التفكير</li>
+            <li>يحب التنوع والتجارب الجديدة</li>
+
+
+        </ul>
+        <h1>كيف يراك الناس</h1>
+        <ul class="list">
+            <li>مُكتف ذاتياً </li>
+            <li>عقلاني </li>
+            <li>واقِعي </li>
+        </ul>
+        <h1>نقاط الضعف</h1>
+        <ul class="list">
+            <li>يفضل الحقائق على المشاعر</li>
+            <li>يحتاجون إلى جرعة صحية من التفاعل البشري</li>
+            <li>صعوبة تعلم الأشياء الغير ملموسة و عملية</li>
+        </ul>
+        <h1>ISTP كأب و أم</h1>
+        <h6 class="more">
+            عادة لا يولون أهمية بأن يكونوا اولياء أمور  ويميلون الى أن يسمحوا لشركائهم بوضع قواعد المعيشة في المنزل ، غالبا ما يكونوا آباء وامهات غير مبالين ومسترخين ويضعوا مسافة بينهم وبين حياة اطفالهم الشخصية
+        </h6>
+        <h1>ISTP كطالب</h1>
+        <h6 class="more">
+            الطالب الذي لا يمكن التنبؤ به، الذي يكون متحفظ جدا وفجأة يتصرف بتهور
+        </h6>
+        <h1>نسبـة istp في العالم : <span class="precente">5.4%</span></h1>
+
+
+    </div>
+    <script>
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+        }
+        
+    </script>
+
+</body>
+</html>

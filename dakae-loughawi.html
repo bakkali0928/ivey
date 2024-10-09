@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/acer/Desktop/Project/Ivey.html# -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Ivey" content="ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل. عبر مجموعة من الإخـتبـارات الشخصية و كذا الذكاء">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bakkali">
+    <link rel="icon" type="image/png" href="logoiv.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80f9fd535a.js" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"></link> 
+    <title>Ivey</title>
+    <link rel="stylesheet" href="2.css">
+</head> 
+<body>
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo"><a href="">Ivey«</a></div>
+
+        </div>
+        
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                   <i class="fa-solid fa-xmark"></i>
+                </div>
+                <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/">الرئــيسـية</a></li>
+                <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/read.html">اقـــــــرأ</a></li>
+                <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/Tests.html">الإخـتبـارات</a></li>
+                <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/not.html">أفكــار</a></li>
+                <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/About1.html">حــولـــنـا</a></li>            </ul>
+            <div class="icon menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+        <div class="content1">
+            <h1 class="text">الذكاء اللغوي</h1>
+            <img src="linguistic.png" alt="visual">
+        </div>
+        <div class="def">
+            <h3 class="title">تـعريـف</h3>
+            <p class="text1">
+                الذكاء اللغوي : القدرة على استخدام الكلمات شفويا بفاعلية "كما هو الحال عند القاضي و الخطيب و المحامي و السياسي ..." ، أو تحريريا "كما هو الحال عند الشاعر و الكاتب و المسرحي و الصحفي ..." .
+                و يضم هذا الذكاء القدرة على تناول و معالجة بناء اللغة ، و أصواتها ، و معانيها ، و الإستخدامات العملية لها ، و تضم بعض هذه الإستخدامات الإقناع "استخدام اللغة لإقناع الآخرين و التأثير فيهم للعمل لشيء ما " ، و معاينات الذاكرة "استخدام اللغة لتذكر المعلومات " ، و الشرح "استخدام اللغة للإعلام و التثقيف " .
+            </p>
+        </div><br><br>
+        <div class="jobs">
+            <h3 class="title2">الوظائف المناسبة لهذا الذكاء</h3><br>
+            <div class="content-img-text">
+            <img src="author.png" alt="">
+            <h4>كـاتب</h4></div>
+            <div class="content-img-text">
+            <img src="interpreter.png" alt="">
+            <h4>متـرجم</h4></div>
+            <div class="content-img-text">
+            <img  src="journalist.png" alt="">           
+            <h4>صـحفي </h4></div>
+            <div class="content-img-text">
+            <img src="lawyer.png" alt="">
+            <h4>مـحامي</h4></div>
+            <div class="content-img-text">
+            <img  src="spokesperson.png" alt="">
+            <h4>ناطق رسمي</h4></div>
+            <div class="content-img-text">
+            <img src="teacher.png" alt="">
+            <h4>معـلم لغات</h4></div>
+        </div>
+
+</body>
+</html>
+<script>
+    const menu = document.querySelector(".menu-list");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+    menu.classList.add("active");
+    menuBtn.classList.add("hide");
+
+    }
+    cancelBtn.onclick = ()=>{
+    menu.classList.remove("active");
+    menuBtn.classList.remove("hide");
+    }
+</script>

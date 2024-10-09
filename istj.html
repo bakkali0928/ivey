@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Ivey" content="ستساعدك الاختبارات في هذه الصفحة على معرفة نفسك بشكل أفضل. عبر مجموعة من الإخـتبـارات الشخصية و كذا الذكاء">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Bakkali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/80f9fd535a.js" crossorigin="anonymous"></script> 
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet"></link> 
+    <title>ISTJ</title>
+    <link rel="stylesheet" href="istj.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="content">
+                <div class="logo"><a href="">Ivey«</a></div>
+    
+            </div>
+            
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                       <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/">الرئــيسـية</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/read.html">اقـــــــرأ</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/Tests.html">الإخـتبـارات</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/not.html">أفكــار</a></li>
+                    <li><a href="https://iveyfortestyourpersonality.on.drv.tw/Iveyy/About1.html">حــولـــنـا</a></li>
+                    </ul>
+                <div class="icon menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
+    
+            </div>
+        </nav>
+    <div class="ctr">
+        <h1 class="title">ISTJ : شخصية الوجيستي</h1>
+        <img src="istj.jpg" alt="istj">
+        <h4 class="description">شخصية انطوائية ، حسية ، عقلانية ، حازمة</h4>
+        <h6 class="more">
+            المنظمون المسؤولون، والساعون لإنشاء وفرض الأنظمة بداخل المؤسسات، وهي شخصيات أنيقة ومنظمة من الداخل والخارج، وتميل إلى دراسة كل ما تفعله بثقة وتركيز، مع التمسك بالعادات، التقاليد والأنظمة ، على الرغم من أنها شخصية انطوائية، ولكنها نادرًا ما تفضل العزلة، فهي شخصيات تسعى لفهم كيفية المشاركة في المنظمات المختلفة.
+            الأشخاص العمليون الظين يعمل عقلهم مع الحقائق فقط ، و لا يمكن الشك في موثوقيتهم
+            كل ما يبحث عنه هو الكيان
+            
+        </h6>
+        <h1>نقاط القوة</h1>
+        <ul class="list">
+            <li>يلتزم بوعوده وتعهداته</li>
+            <li>يتقبل النقد البناء بشكل جيد</li>
+            <li>ممتاز جداً في التعامل مع النقود</li>
+            <li>مستمع جيد</li>
+            <li>تهمه كثيراً الإستقامة والنزاهة</li>
+            <li>يحترم القواعد و الأنظمة</li>
+            <li>بإمكانه إكمال ما بدأه بكل ما يتطلبه الأمر</li>
+
+        </ul>
+        <h1>كيف يراك الناس</h1>
+        <ul class="list">
+            <li>مُطيع</li>
+            <li>يُعتمد عليه</li>
+            <li>يعمل بجِد</li>
+        </ul>
+        <h1>نقاط الضعف</h1>
+        <ul class="list">
+            <li> أقل إبداعًا ومهارة لأنها تركز بشدة على المهام الحالية</li>
+            <li>أقل اهتمامًا باحتياجات الآخرين</li>
+            <li>يمتلك الخوف من التغيير </li>
+        </ul>
+        <h1>ISTJ كأب و أم</h1>
+        <h6 class="more">
+            يتمنون أن يحافظوا أبنائهم على مستوى معين من النظام في حياتهم ، و يحرصون على أن يتبعوا القواعد و يكوكوا مجتهدين ، وقد يعطوا توقعات عالية لأطفالهم ، و يفشلون في إعطاء ردة فعل عاطفية أو مساحة كافية تهيئهم ليكونوا متميزين
+        </h6>
+        <h1>ISTJ كطالب</h1>
+        <h6 class="more">
+            الطالب المفضل للمدرس الذي ينجز مهامه في وقتها ويحصل على ممتاز في كل فصل 
+        </h6>
+        <h1>نسبـة istj في العالم : <span class="precente">11.6%</span></h1>
+
+
+    </div>
+    <script>
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+        }
+        
+    </script>
+
+</body>
+</html>
